@@ -14,9 +14,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetLength1()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int expected = 1;
 
             //act
@@ -28,9 +27,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetLength2()
         {
-            Rectangle rectangle = new Rectangle(2,3);
-
             //arrange
+            Rectangle rectangle = new Rectangle(2, 3);
             int expected = 2;
 
             //act
@@ -42,9 +40,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetLength3()
         {
-            Rectangle rectangle = new Rectangle(3,4);
-
             //arrange
+            Rectangle rectangle = new Rectangle(3, 4);
             int expected = 3;
 
             //act
@@ -57,9 +54,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void ChangeLength1()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int newLength = 2;
             int expected = 2;
 
@@ -72,9 +68,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void ChangeLength2()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int newLength = 3;
             int expected = 3;
 
@@ -87,9 +82,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void ChangeLength3()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int newLength = 4;
             int expected = 4;
 
@@ -103,9 +97,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetWidth1()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int expected = 1;
 
             //act
@@ -117,9 +110,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetWidth2()
         {
-            Rectangle rectangle = new Rectangle(2,3);
-
             //arrange
+            Rectangle rectangle = new Rectangle(2, 3);
             int expected = 3;
 
             //act
@@ -131,9 +123,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetWidth3()
         {
-            Rectangle rectangle = new Rectangle(3,4);
-
             //arrange
+            Rectangle rectangle = new Rectangle(3, 4);
             int expected = 4;
 
             //act
@@ -146,9 +137,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void ChangeWidth1()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int newWidth = 2;
             int expected = 2;
 
@@ -161,9 +151,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void ChangeWidth2()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int newWidth = 3;
             int expected = 3;
 
@@ -176,9 +165,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void ChangeWidth3()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int newWidth = 4;
             int expected = 4;
 
@@ -192,9 +180,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetPerimeter1()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int expected = 4;
 
             //act
@@ -206,9 +193,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetPerimeter2()
         {
-            Rectangle rectangle = new Rectangle(2,3);
-
             //arrange
+            Rectangle rectangle = new Rectangle(2, 3);
             int expected = 10;
 
             //act
@@ -220,9 +206,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetPerimeter3()
         {
-            Rectangle rectangle = new Rectangle(3,4);
-
             //arrange
+            Rectangle rectangle = new Rectangle(3, 4);
             int expected = 14;
 
             //act
@@ -235,9 +220,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetArea1()
         {
-            Rectangle rectangle = new Rectangle();
-
             //arrange
+            Rectangle rectangle = new Rectangle();
             int expected = 1;
 
             //act
@@ -249,9 +233,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetArea2()
         {
-            Rectangle rectangle = new Rectangle(2,3);
-
             //arrange
+            Rectangle rectangle = new Rectangle(2, 3);
             int expected = 6;
 
             //act
@@ -263,9 +246,8 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
         [Test]
         public void GetArea3()
         {
-            Rectangle rectangle = new Rectangle(3,4);
-
             //arrange
+            Rectangle rectangle = new Rectangle(3, 4);
             int expected = 12;
 
             //act
