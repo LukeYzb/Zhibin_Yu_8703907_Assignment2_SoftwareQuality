@@ -274,6 +274,5 @@ namespace Test_Zhibin_Yu_8703907_Assignment2
             //assert
             Assert.AreEqual(expected, actual);
         }
-
     }
 }
